@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: papayawhip;
+}
+
+h5 {
+    text-align: right;
+}
+
+.social-icons {
+    position: relative;
+    bottom: 0px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: rgb(235, 3, 247);
+    border-radius: 50%;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid#fff;
+    outline: 3px solid rgb(158, 3, 247);
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+.social-icons a i {
+    color: black;
+}

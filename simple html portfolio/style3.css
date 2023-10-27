@@ -1,0 +1,23 @@
+    body {
+        background: lightgray;
+    }
+    
+    form {
+        margin: 0 auto;
+        height: 300px;
+        padding: 20px;
+        background: papayawhip;
+    }
+    
+    input,
+    textarea {
+        width: 85%;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }

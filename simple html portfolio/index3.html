@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Submission Form</title>
+    <h1>GET IN TOUCH</h1>
+    <h4>If you have any Questions or need help, Please fill out the form below.</h4>
+    <link rel=stylesheet href=" style3.css ">
+    <style>
+        form {
+            background: paleturquoise;
+            margin: 0 auto;
+            width: 400px;
+            padding: 60px;
+            border: 10px solid #ccc;
+        }
+        
+        input,
+        textarea {
+            width: 90%;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+<body>
+    <form action="/action_page.php" method="post">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="email" name="email" placeholder="Email Address">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type=" submit ">Submit</button>
+    </form>
+</body>
+
+</html>
